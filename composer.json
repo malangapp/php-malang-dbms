@@ -1,0 +1,14 @@
+{
+  "name": "malangapp/php-malang-dbms",
+  "description": "php-malang-dbms",
+  "require": {
+    "php": ">=7.1",
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "malang_dbms\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
